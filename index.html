@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Challengeone Decodificador4</title>
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+            <div class="logo">
+                <img class="img-logo" src="img/logo.svg" alt="logo">
+            </div>
+        </header>
+
+        <section id="entrada">
+
+            <div class="div-texto">
+                <textarea type="text" id="digite-texto" class="input-padrao" required placeholder="Digite seu texto..."></textarea>
+            </div>
+
+            <div class="botoes">
+                <p class="alerta"><i class="bi bi-exclamation-circle-fill"></i> Apenas letras minusculas e sem acento!</p>
+                <button class="criptografar">Criptografar</button>
+                <button class="descriptografar">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section id="saida">
+            <div id="saida-sem-valor">
+                <img class="img-desenho" src="img/desenho.svg">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div id="saida-nao-visivel" class="display-option">
+                <div class="output-result">
+                  <p id="output-text">Por Favor digite algo!</p>
+                  <div id='alrt' style="font-Weight: 'bold'"></div>
+                  <button id="copiar" class="copiar button-copy">
+                    Copiar!
+                  </button>
+                  
+                </div>
+            </div>
+        </section>  
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
